@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2053150007014207499}
   - component: {fileID: 7485494078294385744}
   - component: {fileID: 1257899092960786069}
-  - component: {fileID: 4424853939960945437}
   - component: {fileID: 3223999586392625841}
   - component: {fileID: 8848195218375063547}
   - component: {fileID: -8469373390204652167}
@@ -62,18 +61,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &4424853939960945437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7062876849949800672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017a7dfbcb9e8474286239e282125af4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!212 &3223999586392625841
 SpriteRenderer:
   serializedVersion: 2
@@ -120,7 +107,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1123525877
-  m_SortingLayer: 5
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1802252450601817497, guid: 21c61314b62b64e4595fef9eee7d15be, type: 3}
@@ -182,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   ID: 0
+  Sprite: {fileID: 0}
 --- !u!114 &-2425629386940832214
 MonoBehaviour:
   m_ObjectHideFlags: 0

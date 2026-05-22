@@ -1,10 +1,12 @@
 using UnityEngine;
 
+
 public class PlayerItemController : MonoBehaviour
 {
     private InventoryController inventoryController;
 
     private Item item;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,6 +27,9 @@ public class PlayerItemController : MonoBehaviour
                     Destroy(collision.gameObject);
                 }
             }
+            
         }
+        
     }
+    
 }

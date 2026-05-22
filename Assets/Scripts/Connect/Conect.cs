@@ -23,4 +23,6 @@ public class Conect : MonoBehaviour
         }
     }
     
+    //redd misspelled connect as 'conect' sad face 
+    
 }

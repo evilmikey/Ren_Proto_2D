@@ -24,4 +24,3 @@ public class Conect : MonoBehaviour
     }
     
 }
-/* if child object collide with compare tag collider ?????*/

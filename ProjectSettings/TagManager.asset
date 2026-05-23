@@ -7,14 +7,7 @@ TagManager:
   - Item
   - Drag
   - Collider1
-  - Collider2
-  - Collider3
-  - Collider4
-  - Collider5
-  - Collider6
-  - Collider7
-  - Collider8
-  - Collider9
+  - Surprise
   layers:
   - Default
   - TransparentFX

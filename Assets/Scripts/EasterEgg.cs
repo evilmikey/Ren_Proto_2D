@@ -1,7 +1,9 @@
-using UnityEngine;
+using UnityEngine;  
+using System.Collections;
+using UnityEngine.EventSystems;  
+using UnityEngine.UI;
 
-
-public class PlayerItemController : MonoBehaviour
+public class EasterEgg : MonoBehaviour
 {
     private InventoryController inventoryController;
 
@@ -14,10 +16,9 @@ public class PlayerItemController : MonoBehaviour
     {
         inventoryController = FindFirstObjectByType<InventoryController>();
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Item"))
+        if (collision.CompareTag("Surprise"))
         {
             audioPlayer.Play();
             Item item = collision.GetComponent<Item>();
@@ -34,5 +35,4 @@ public class PlayerItemController : MonoBehaviour
         }
         
     }
-    
 }
